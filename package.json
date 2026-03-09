@@ -16,7 +16,12 @@
     "coverage": "c8 npm test"
   },
   "devDependencies": {
-    "c8": "11.0.0"
+    "superc8": "12.2.4"
   },
-  "packageManager": "pnpm@10.31.0"
+  "packageManager": "pnpm@10.31.0",
+  "pnpm": {
+    "overrides": {
+      "superc8>foreground-child": "3.3.1"
+    }
+  }
 }
