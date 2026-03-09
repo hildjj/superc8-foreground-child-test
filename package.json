@@ -1,0 +1,20 @@
+{
+  "name": "superc8-foreground-child-test",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": "true",
+  "author": "Joe Hildebrand <joe-github@cursive.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hildjj/superc8-foreground-child-test.git"
+  },
+  "homepage": "https://github.com/hildjj/superc8-foreground-child-test#readme",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "superc8": "12.2.4"
+  }
+}
