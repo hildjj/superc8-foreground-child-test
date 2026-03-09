@@ -12,7 +12,8 @@
   },
   "homepage": "https://github.com/hildjj/superc8-foreground-child-test#readme",
   "scripts": {
-    "test": "c8 node --test"
+    "test": "node --test",
+    "coverage": "c8 npm test"
   },
   "devDependencies": {
     "c8": "11.0.0"
