@@ -15,8 +15,8 @@
     "test": "node --test",
     "coverage": "c8 npm test"
   },
+  "packageManager": "pnpm@10.31.0",
   "devDependencies": {
-    "c8": "11.0.0"
-  },
-  "packageManager": "pnpm@10.31.0"
+    "superc8": "12.3.0"
+  }
 }
