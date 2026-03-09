@@ -12,9 +12,10 @@
   },
   "homepage": "https://github.com/hildjj/superc8-foreground-child-test#readme",
   "scripts": {
-    "test": "node --test"
+    "test": "c8 node --test"
   },
   "devDependencies": {
-    "superc8": "12.2.4"
-  }
+    "c8": "11.0.0"
+  },
+  "packageManager": "pnpm@10.31.0"
 }
