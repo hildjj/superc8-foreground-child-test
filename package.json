@@ -18,5 +18,10 @@
   "devDependencies": {
     "c8": "11.0.0"
   },
+  "pnpm": {
+    "overrides": {
+      "c8>foreground-child": "4.0.3"
+    }
+  },
   "packageManager": "pnpm@10.31.0"
 }
