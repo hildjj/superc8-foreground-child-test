@@ -17,6 +17,6 @@
   },
   "packageManager": "pnpm@10.31.0",
   "devDependencies": {
-    "superc8": "12.2.4"
+    "superc8": "12.3.0"
   }
 }
